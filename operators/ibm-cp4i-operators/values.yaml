@@ -5,8 +5,9 @@ ibm-cp4i-operators:
     cloudpakforintegration:
       name: ibm-cp-integration
       subscription:
-        channel: v1.1-eus
+        channel: v7.3-sc2
         installPlanApproval: Automatic
-        name: ibm-cp-integration
-        source: ibm-operator-catalog
+        name: ibm-common-service-operator
+        source: opencloud-operators
         sourceNamespace: openshift-marketplace
+        
