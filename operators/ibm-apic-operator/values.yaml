@@ -8,5 +8,5 @@ ibm-apic-operator:
         channel: v5.4-sc2
         installPlanApproval: Automatic
         name: ibm-apiconnect
-        source: ibm-operator-catalog
+        source: ibm-apiconnect-catalog
         sourceNamespace: openshift-marketplace
