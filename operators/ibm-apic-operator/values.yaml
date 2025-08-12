@@ -3,10 +3,10 @@ global: {}
 ibm-apic-operator:
   subscriptions:
     ibmapic:
-      name: ibm-apic
+      name: ibm-apiconnect
       subscription:
         channel: v5.4-sc2
         installPlanApproval: Automatic
         name: ibm-apiconnect
-        source: ibm-apiconnect-catalog
+        source: ibm-operator-catalog
         sourceNamespace: openshift-marketplace
